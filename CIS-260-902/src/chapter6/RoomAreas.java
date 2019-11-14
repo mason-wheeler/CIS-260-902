@@ -3,10 +3,8 @@ package chapter6;
 
 import javax.swing.JOptionPane;
 
-import jdk.nashorn.internal.scripts.JO;
-
 /**
-	This program creates three instances of the Retangle class.
+	This program creates three instances of the Rectangle class.
  */
 public class RoomAreas 
 {

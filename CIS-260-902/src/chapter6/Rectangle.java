@@ -2,7 +2,7 @@
 package chapter6;
 
 /**
-	Rectangle class, phase 3
+	Rectangle class, phase 4
 	Under Construction!
  */
 
@@ -22,7 +22,7 @@ public class Rectangle
 	
 	/**
 	 	The setWidth method stores a value in the width method field.
-	 	@parm w The value to store in width
+	 	@param w The value to store in width
 	 */
 	
 	public void setWidth(double w) 
@@ -48,5 +48,14 @@ public class Rectangle
 	public double getWidth()
 	{
 		return width;
+	}
+	
+	/**
+	 	The getArea method returns a Rectangle object's area.
+	  	@return The product of length times width.
+	 */
+	public double getArea()
+	{
+		return width * length;
 	}
 }//end of class

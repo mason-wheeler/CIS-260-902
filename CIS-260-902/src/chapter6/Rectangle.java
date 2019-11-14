@@ -2,7 +2,7 @@
 package chapter6;
 
 /**
-	Rectangle class, phase 1
+	Rectangle class, phase 2
 	Under Construction!
  */
 
@@ -18,5 +18,15 @@ public class Rectangle
 	public void setLength(double len)
 	{
 		length = len;
+	}
+	
+	/**
+	 	The setWidth method stores a value in the width method field.
+	 	@parm w The value to store in width
+	 */
+	
+	public void setWidth(double w) 
+	{
+		width = w;
 	}
 }//end of class

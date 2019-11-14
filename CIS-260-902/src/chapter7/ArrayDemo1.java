@@ -1,4 +1,4 @@
-package chapter6;
+package chapter7;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class ArrayDemo1
 		final int EMPLOYEES = 3;			//Number of employees
 		int[] hours = new int[EMPLOYEES];	//Array of hours
 		
-		//Create a new Scanner Objeect for keyboard input.
+		//Create a new Scanner Object for keyboard input.
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("Enter the hours worked by " + EMPLOYEES + " employees.");

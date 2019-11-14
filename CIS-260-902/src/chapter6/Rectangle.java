@@ -2,7 +2,7 @@
 package chapter6;
 
 /**
-	Rectangle class, phase 2
+	Rectangle class, phase 3
 	Under Construction!
  */
 
@@ -28,5 +28,25 @@ public class Rectangle
 	public void setWidth(double w) 
 	{
 		width = w;
+	}
+	
+	/**
+	 	The getLength method return a Rectangle objects length.
+	  	@return The value in the length field.
+	 */
+	
+	public double getLength()
+	{
+		return length;
+	}
+	
+	/**
+	 	The getWidth method return a Rectangle objects width.
+	 	@return The value in the width field.
+	 */
+	
+	public double getWidth()
+	{
+		return width;
 	}
 }//end of class

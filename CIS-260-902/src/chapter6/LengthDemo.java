@@ -1,6 +1,7 @@
 //Mason Wheeler Section 902
 package chapter6;
 
+
 /**
 	This program demonstrates the Rectangle class's setLength method.
  */

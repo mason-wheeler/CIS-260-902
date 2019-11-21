@@ -11,6 +11,11 @@ public class Rectangle
 	private double length;
 	private double width;
 	
+	public Rectangle()
+	{
+		length = 5;
+		width = 5;
+	}
 	/**
 	 	Constructor
 	 	@param len The length of the rectangle

@@ -11,6 +11,9 @@ public class Rectangle
 	private double length;
 	private double width;
 	
+	/**
+	 	Default Constructor
+	 */
 	public Rectangle()
 	{
 		length = 5;
